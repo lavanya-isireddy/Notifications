@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+  .notifications-app-container {
+    background-color: weight;
+    height: 100vh;
+    background-size: cover;
+  }
+  .title {
+    color: #0f172a;
+    font-size: 28px;
+    font-family: 'roboto';
+    font-weight: bold;
+  }
+  .notification-list-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .primary-bg-color {
+    background-color: #0b69ff;
+    height: 30px;
+    width: 100vw;
+  }
+  .success-bg-color {
+    background-color: #2dca73;
+    height: 30px;
+    width: 100vw;
+  }
+  .warning-bg-color {
+    background-color: #ffb800;
+    height: 30px;
+    width: 100vw;
+  }
+  .error-bg-color {
+    background-color: #ff0b37;
+    height: 30px;
+    width: 100vw;
+  }
+  .icon{
+    height:1vh;
+    width:2vw;
+  }
+  .message{
+    color:white;
+    font-size:10px;
+    font-family:"roboto";
+  }
+}
